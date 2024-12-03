@@ -9,7 +9,7 @@ namespace ConsoleApp1
         public static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            // ShowSplashScreen();
+            ShowSplashScreen();
 
             // тоторо
             // Totoro miniTotoro = new Totoro();
@@ -40,12 +40,12 @@ namespace ConsoleApp1
             // skeleton4.Draw();
 
             // дед
-            Ded ded = new Ded();
-            ded.Draw();
+            // Ded ded = new Ded();
+            // ded.Draw();
 
             // меню
-            // Menu mainMenu = new Menu();
-            // mainMenu.ShowMenu();
+            Menu mainMenu = new Menu();
+            mainMenu.ShowMenu();
         }
 
         static void ShowSplashScreen()
