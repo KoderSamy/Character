@@ -1,6 +1,10 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace RogueLike
 {
     public class Frame
     {
@@ -34,8 +38,8 @@ namespace ConsoleApp1
 
             for (int i = 0; i < frameLines.Length; i++) // Обратите внимание: цикл теперь короче
             {
-                 Console.SetCursorPosition(leftPadding, i + topPadding);
-                 Console.WriteLine(frameLines[i]);
+                Console.SetCursorPosition(leftPadding, i + topPadding);
+                Console.WriteLine(frameLines[i]);
             }
 
             Console.ResetColor();
